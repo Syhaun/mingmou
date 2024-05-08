@@ -1,5 +1,6 @@
 package com.mingmou.Mapper;
 
+import com.mingmou.Pojo.Health;
 import com.mingmou.Pojo.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
@@ -17,4 +18,5 @@ public interface UserMapper {
 //    查询用户名使用已经使用过了
     @Select("select * from user where username = #{username}")
     User getUserByUsername(String username);
+
 }

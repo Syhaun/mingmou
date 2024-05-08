@@ -1,0 +1,8 @@
+com\mingmou\Service\Impl\UserServiceImpl.class
+com\mingmou\Mapper\UserMapper.class
+com\mingmou\Config\Webconfig.class
+com\mingmou\Contorller\UserController.class
+com\mingmou\Pojo\User.class
+com\mingmou\Service\UserService.class
+com\mingmou\MingmouApplication.class
+com\mingmou\Pojo\Result.class
